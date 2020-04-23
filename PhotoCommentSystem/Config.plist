@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FontSizeValue</key>
+	<string>小</string>
+	<key>FontSizeValue_Int</key>
+	<integer>17</integer>
+	<key>FontColorValue</key>
+	<string>白</string>
+	<key>FontColorValue_Int</key>
+	<integer>0</integer>
+	<key>FontTypeValue</key>
+	<string>娃娃體</string>
+	<key>FontTypeValue_Int</key>
+	<integer>0</integer>
+	<key>Theme</key>
+	<integer>0</integer>
+</dict>
+</plist>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="60" id="nCb-gb-XMk" customClass="FontSetTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nCb-gb-XMk" id="b61-ht-Wbw">
+                <rect key="frame" x="0.0" y="0.0" width="535" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新細明體" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jrp-pm-fbi">
+                        <rect key="frame" x="437.5" y="16" width="89.5" height="27"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                        <color key="textColor" red="0.043137254899999998" green="0.49803921569999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="文字字型" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uY5-2k-FyN">
+                        <rect key="frame" x="8" y="16" width="89.5" height="27"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                        <color key="textColor" red="0.043137254899999998" green="0.49803921569999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jrp-pm-fbi" firstAttribute="centerY" secondItem="b61-ht-Wbw" secondAttribute="centerY" id="3Qk-Ay-cCq"/>
+                    <constraint firstItem="uY5-2k-FyN" firstAttribute="centerY" secondItem="b61-ht-Wbw" secondAttribute="centerY" id="O3e-EN-gbm"/>
+                    <constraint firstItem="jrp-pm-fbi" firstAttribute="trailing" secondItem="b61-ht-Wbw" secondAttribute="trailingMargin" id="Ohp-gF-OCb"/>
+                    <constraint firstItem="uY5-2k-FyN" firstAttribute="leading" secondItem="b61-ht-Wbw" secondAttribute="leadingMargin" id="pdw-sj-ZYa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="uilabelAttributeLabel" destination="jrp-pm-fbi" id="jZD-kf-Lmj"/>
+                <outlet property="uilabelNameLabel" destination="uY5-2k-FyN" id="ad1-RB-H84"/>
+            </connections>
+            <point key="canvasLocation" x="268" y="181"/>
+        </tableViewCell>
+    </objects>
+</document>
